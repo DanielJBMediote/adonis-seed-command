@@ -13,7 +13,7 @@ class SeedSync extends Command {
   }
 
   static get description() {
-    return 'Seeds based on a list instead of running all seeds async.';
+    return 'Seeds based on a list instead of running all seeds ordering by datetime.';
   }
 
   async handle(args, options) {
